@@ -104,13 +104,12 @@ main{
 }
 
 .top{
-    flex: 1 1 30%;
     background-image: url(street-wallpaper-1.jpg);
     background-position: center;
     background-size: cover;
     background-color: #000000aa;
     background-blend-mode: color-dodge;
-    padding: 5em 2em;
+    padding: 10em 2em;
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -452,7 +451,6 @@ form{
 #mess{
     padding: .5em 1em;
     background: var(--darkshade);
-    border: 1px solid var(--lightshade);
     border-radius: .5em;
     box-shadow: 5px 5px 15px black;
     position: fixed;
@@ -481,6 +479,7 @@ footer{
     height: 25vh;
 
 }
+
 
 
 
