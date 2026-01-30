@@ -295,8 +295,8 @@ main{
     flex-direction: column;
     gap: 1em;
     animation: popup 0.3s 1 ease forwards;
-    width: 85%;
-    max-width: 30em;
+    width: 80%;
+    max-width: max-content;
     height: 80%;
     max-height: max-content;
     overflow: hidden;
@@ -479,6 +479,7 @@ footer{
     height: 25vh;
 
 }
+
 
 
 
