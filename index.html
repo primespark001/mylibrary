@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h3>📚 LIBRARY OF BOOKS</h3>
+        <input type="checkbox" name="toggle" id="toggle" checked onclick="changeTheme()">
+        <label for="toggle" title="theme" id="themelabel">🌙</label>
+        <p>🧑 Guest</p>
+    </header>
+
+    <main>
+        <section class="top">
+            <h2>Welcome Guest 🙂<br>
+                <span>What are you going to do today?</span>
+            </h2>           
+        </section>
+
+        <div class="bookheader">
+            <h3>Books (<span id="total">0</span>)</h3>
+            <label for="create">+ Create book</label>
+            <label for="clear">🗑 Clear Library</label>
+        </div>
+
+        <section class="books">
+            <div class="container" id="bookcontainer">
+                <div class="nocontent">
+                    <span>🚫</span><i>No books.</i>
+                </div>
+                <!-- <div class="book">
+                    <div class="imgholder">📙</div>
+                    <ul class="details">
+                        <li><strong>id</strong> <span>1234567890</span></li>
+                        <li><strong>Title</strong> <span>The Man</span></li>
+                        <li><strong>Author</strong> <span>Prime</span></li>
+                        <li><strong>Genre</strong> <span>Adventure</span></li>
+                        <li><strong>No. of Pages</strong> <span>300</span></li>
+                        <li><strong>Status</strong> <span>Read</span></li>
+                    </ul>
+                    <div class="actions">
+                        <label for="markread" title="markread">Mark</label>
+                        <button type="button">Del</label>
+                    </div>
+                </div> -->                
+            </div>
+
+        </section>      
+        
+    </main>
+    <footer>
+        &copy; Prime Spark, 2026.
+    </footer>
+
+
+
+    <input type="checkbox" name="create" id="create">
+    <div class="createcover"></div>
+    <div class="popup">            
+        <div class="firstdiv">                
+            <h3>Create Book</h3>
+            <label for="create" title="close">×</label>
+        </div>
+        <form id="form">
+            <div>
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title" required>
+            </div>
+            <div>
+                <label for="author">Author:</label>
+                <input type="text" name="author" id="author" required>
+            </div>
+            <div>
+                <label for="genre">Genre:</label>
+                <select name="genre" id="genre" required>
+                    <option value="">--Select genre--</option>
+                    <option value="Fiction">Fiction</option>
+                    <option value="Non-fiction">Non-fiction</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="Sci-Fi">Sci-Fi</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Mystery">Mystery</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Documentary">Documentary</option>
+                    <option value="Children">Children</option>
+                    <option value="Action">Action</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Education">Education</option>
+                </select>
+            </div>
+            <div>
+                <label for="pages">No. of Pages:</label>
+                <input type="number" name="pages" id="pages" required>
+            </div>
+            <div>
+                <label for="color">Book color:</label>
+                <select name="color" id="color" required>
+                    <option value="">--Select color--</option>
+                    <option value="Red">Red</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Green">Green</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Grey">Grey</option>
+                    <option value="Pink">Pink</option>
+                </select>
+            </div>
+
+            <button type="submit" onclick="createBook()">Create</button>
+            
+        </form>
+    </div>
+
+    <input type="checkbox" name="clear" id="clear">
+    <div class="clearcover"></div>
+    <div class="clearlib">
+        <p>Are you sure you want to clear the Library?</p>
+        <i>NOTE: THIS CANNOT BE UNDONE!!!</i>
+        <div>
+            <button type="button" onclick="clearLibrary()">Proceed</button>
+            <label for="clear">Cancel</label>
+        </div>
+    </div>    
+
+    <p id="mess">Hello</p>
+
+    <script src="index.js"></script>
+</body>
+</html>
