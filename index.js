@@ -131,7 +131,6 @@ function createBook(){
         alert('Book Created!');
         refresh();
         checkBox.checked = false;
-        console.log(input.children);
     }
 }
 
@@ -167,4 +166,5 @@ function clearLibrary(){
     alert('Library Cleared!')
     refresh();
     checkBox.checked = false;
+
 }
