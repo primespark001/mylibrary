@@ -107,8 +107,8 @@ main{
     background-image: url(street-wallpaper-1.jpg);
     background-position: center;
     background-size: cover;
-    background-color: #000000aa;
-    background-blend-mode: color-burn;
+    background-color: #00000055;
+    background-blend-mode: color-dodge;
     padding: 10em 2em;
     display: flex;
     flex-direction: column;
@@ -479,6 +479,7 @@ footer{
     height: 25vh;
 
 }
+
 
 
 
