@@ -258,7 +258,7 @@ main{
 }
 
 .book:hover{
-    background: hsla(0, 0%, 0%, 0.2);
+    background: hsla(0, 0%, 50%, 0.1);
 }
 
 #create{
@@ -481,5 +481,6 @@ footer{
     height: 25vh;
 
 }
+
 
 
