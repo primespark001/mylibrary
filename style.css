@@ -258,8 +258,7 @@ main{
 }
 
 .book:hover{
-    transform: translateY(-5%) scale(1.2);
-    background: #99999999;
+    scale: 1.1;
 }
 
 #create{
@@ -453,7 +452,8 @@ form{
 #mess{
     padding: .5em 1em;
     background: var(--darkshade);
-    border-radius: 1px solid var(--lightshade);
+    border: 1px solid var(--lightshade);
+    border-radius: .5em;
     box-shadow: 5px 5px 15px black;
     position: fixed;
     top: -110%;
@@ -483,3 +483,4 @@ footer{
     height: 25vh;
 
 }
+
