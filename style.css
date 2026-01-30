@@ -258,7 +258,7 @@ main{
 }
 
 .book:hover{
-    scale: 1.1;
+    background: hsla(0, 0%, 0%, 0.2);
 }
 
 #create{
@@ -459,8 +459,6 @@ form{
     top: -110%;
     left: 50%;
     z-index: 5;
-    border-radius: .5em;
-    border: 1px solid var(--darkshade);
     translate: -50%;
 }
 footer{
@@ -483,4 +481,5 @@ footer{
     height: 25vh;
 
 }
+
 
