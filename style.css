@@ -60,7 +60,7 @@ header{
     display: flex;
     align-items: center;
     padding: 1rem 2rem;
-    border-bottom: 2px solid var(--darkshade);
+    border-bottom: 1px solid var(--darkshade);
     background: var(--darkshade);
     h3{
         margin-right: auto;
@@ -138,7 +138,7 @@ main{
     gap: .5em;
     padding: 1em 2em;
     border-top: 1px solid var(--darkshade);
-    border-bottom: 2px solid var(--darkshade);
+    border-bottom: 1px solid var(--darkshade);
     background: var(--backgroundcolor);
     h3{
         font-weight: 500;
@@ -181,10 +181,9 @@ main{
     height: max-content;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid var(--darkshade);
+    border: 1px solid var(--darkshade);
     padding: .5em;
     border-radius: 1em;
-    position: relative;
     overflow: hidden;
     .imgholder{
         font-size: 5em;
@@ -258,6 +257,11 @@ main{
     }
 }
 
+.book:hover{
+    transform: translateY(-5%) scale(1.2);
+    background: #99999999;
+}
+
 #create{
     display: none;
 }
@@ -288,6 +292,7 @@ main{
     padding: 1.5em;
     background: var(--backgroundcolor);
     border-radius: 1em;
+    border: 1px solid var(--darkshade);
     display: none;
     flex-direction: column;
     gap: 1em;
@@ -331,7 +336,7 @@ form{
     gap: 1.5em;
     font-size: .9em;
     padding: 1em 0;
-    border-top: 2px solid var(--darkshade);
+    border-top: 1px solid var(--darkshade);
     div{
         display: flex;
         align-items: center;
@@ -399,6 +404,7 @@ form{
     padding: 1.5em;
     background: var(--backgroundcolor);
     border-radius: 1em;
+    border: 1px solid var(--darkshade);
     display: none;
     flex-direction: column;
     gap: 1em;
@@ -454,6 +460,7 @@ form{
     left: 50%;
     z-index: 5;
     border-radius: .5em;
+    border: 1px solid var(--darkshade);
     translate: -50%;
 }
 footer{
@@ -474,4 +481,5 @@ footer{
     padding: 2em;
     grid-column: 1 / -1;
     height: 25vh;
+
 }
