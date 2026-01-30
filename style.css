@@ -92,9 +92,8 @@ header{
         border: 1px solid var(--lightshade);
         color: var(--textcolor);
         text-decoration: none;
-        border-radius: .8em;
+        border-radius: .5em;
         cursor: pointer;
-        opacity: 0.5;
     }
     a:hover{
         background: var(--accentcolor);
@@ -485,6 +484,7 @@ footer{
     height: 25vh;
 
 }
+
 
 
 
