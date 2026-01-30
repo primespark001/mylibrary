@@ -86,13 +86,19 @@ header{
         background: var(--lightshade);
         border-color: var(--lightshade);
     }
-    p{
+    a{
         font-size: .7em;
         padding: .3em .5em;
         border: 1px solid var(--lightshade);
+        color: var(--textcolor);
+        text-decoration: none;
         border-radius: .8em;
-        cursor: not-allowed;
+        cursor: pointer;
         opacity: 0.5;
+    }
+    a:hover{
+        background: var(--accentcolor);
+        color: white;
     }
 }
 
@@ -479,6 +485,7 @@ footer{
     height: 25vh;
 
 }
+
 
 
 
