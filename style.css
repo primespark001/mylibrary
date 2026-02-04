@@ -188,7 +188,7 @@ main{
 .book{
     height: max-content;
     display: flex;
-    flex-direction: column;
+    flexhwrap: wrap;
     border: 1px solid var(--darkshade);
     padding: .5em;
     border-radius: 1em;
@@ -200,6 +200,7 @@ main{
         font-size: 5em;
     }
     ul{
+        flex: 1 0 50%;
         list-style-type: none;
         padding: .5em .5em 1em;
         display: flex;
@@ -240,6 +241,7 @@ main{
         }
     }
     .actions{
+        flex: 1 0 100%;
         margin-top: auto;
         border: 1px solid var(--darkshade);
         border-radius: .9em;
@@ -934,5 +936,6 @@ main input[type="radio"]{
         }
     }
 }
+
 
 
