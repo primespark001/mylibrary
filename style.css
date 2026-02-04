@@ -188,7 +188,7 @@ main{
 .book{
     height: max-content;
     display: flex;
-    flexhwrap: wrap;
+    flex-wrap: wrap;
     border: 1px solid var(--darkshade);
     padding: .5em;
     border-radius: 1em;
@@ -936,6 +936,7 @@ main input[type="radio"]{
         }
     }
 }
+
 
 
 
